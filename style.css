@@ -1,0 +1,9 @@
+/* Apply Quicksand font globally */
+body {
+  font-family: 'Quicksand', sans-serif;
+}
+
+.completed {
+  text-decoration: line-through;
+  color: gray;
+}

@@ -1,6 +1,12 @@
-/* Apply Quicksand font globally */
+/* Custom styles for ToDo List */
 body {
-  font-family: 'Quicksand', sans-serif;
+  font-family: Arial, sans-serif;
+}
+
+#taskList li {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
 .completed {
